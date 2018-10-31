@@ -1,0 +1,375 @@
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+  }
+  
+  *,*::before,*::after{
+    box-sizing: inherit;
+  
+  }
+
+  body {
+     font-family: 'Ubuntu', sans-serif;
+      font-size:1.6rem;
+      background:#F1EAE3;
+  }
+
+  .about {
+    background-image: url(../assets/images/header_about.jpg);
+    background-size: cover;
+    height:50rem;
+    background-position: center center;
+}
+
+.bar {
+    background-image: url(../assets/images/header_bar.jpg);
+    background-size: cover;
+    height:50rem;
+    background-position: center center;
+}
+
+.musicshop {
+    background-image: url(../assets/images/header_musicshop.jpg);
+    background-size: cover;
+    height:50rem;
+    background-position: center center;
+}
+
+.djlessen {
+    background-image: url(../assets/images/header_djlessen.jpg);
+    background-size: cover;
+    height:50rem;
+    background-position: center center;
+}
+
+nav a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  nav a {
+      color: black;
+      text-decoration: none;
+      font-weight:bold;
+  }
+
+  .top-nav .fa, .mobile-nav {
+      background:white;
+      padding:2rem;
+  }
+
+  #myLinks {
+    background:white;
+    padding:2rem;
+    line-height:5rem;
+  }
+
+  .fa {
+      font-size:5rem;
+  }
+
+  .mobile-nav img {
+      width:7rem;
+  }
+
+header h1 {
+      text-align:center;
+      text-transform:uppercase;
+      font-weight:bold;
+      padding-top:8rem;
+      font-size:10rem;
+      opacity: 0.7;
+  }
+
+header p {
+    text-align:center;
+    padding: 2rem;
+    opacity: 0.5;
+}
+
+.hide {
+    display:none;
+}
+
+h3 {
+    font-weight:bold;
+    font-size:4rem;
+    padding:3rem 0rem 3rem 0rem;
+}
+
+p {
+    line-height:2.5rem;
+}
+
+h4 {
+    font-weight:bold;
+    font-size:2rem;
+    padding:3rem 0rem 2rem 0rem;
+}
+
+.subscribe {
+    display:flex;
+    justify-content: space-between;
+}
+
+.subscribe > p {
+    width:25%;
+}
+section {
+    margin-bottom:2rem;
+}
+
+.info {
+    padding-bottom:5rem;
+}
+
+.bold {
+    font-weight:bold;
+}
+
+.smalltext {
+    font-size:1rem;
+}
+
+
+
+.cadeaubonnen > img {
+    width:100%;
+    height:20rem;
+}
+
+.cadeaubonnen > h3 {
+    position: relative;
+    top:-20rem;
+    left:3rem;
+}
+
+.container {
+    width: 90%;
+    margin:0 auto;
+}
+
+button {
+	background-color:transparent;
+	-moz-border-radius:7px;
+	-webkit-border-radius:7px;
+	border-radius:7px;
+	border:1px solid #a07442;
+	display:inline-block;
+	cursor:pointer;
+	color:#a07442;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 21px;
+	text-decoration:none;
+}
+button:hover {
+	background-color:transparent;
+}
+button:active {
+	position:relative;
+	top:1px;
+}
+
+.musicshop_threepics {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+.musicshop_threepics > a > img {
+    padding:3rem;
+    width:100%;
+    max-width:70rem;
+}
+
+
+h3 {
+    text-transform: uppercase;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 499px) {
+    html{
+        font-size: 30%;
+    }
+
+    .subscribe {
+        height:40rem;
+    }
+
+    .subscribe > p {
+        width:100%;
+        font-size:4rem;
+        padding:1rem 0rem 1rem 0rem;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    .container {
+        width:96rem;
+        margin: 0 auto;
+    }
+
+    .musicshop_threepics > a > img {
+        max-width:30rem;
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 767px) {
+    html{
+        font-size: 50%;
+    }
+
+    .subscribe {
+        height:50rem;
+    }
+
+    .subscribe > p {
+        width:100%;
+        font-size:4rem;
+        padding:2rem 0rem 2rem 0rem;
+    }
+}
+
+  @media only screen and (max-width: 768px) {
+    body {
+        text-align:center;
+    }
+
+    h3 {
+        font-size:5rem;
+    }
+
+    h4 {
+        font-size:3.5rem;
+        opacity: 0.8;
+    }
+
+    section {
+        margin:4rem 0rem 4rem 0rem;
+    }
+
+
+      header .container {
+          width:100%;
+      }
+
+      h3 {
+          margin-left:0rem;
+      }
+
+      p {
+          line-height:3rem;
+      }
+        body {
+            font-size:2.8rem;
+            
+        }
+
+        .nav-logo {
+            display:none;
+            
+        }
+
+        #myLinks {
+            display:none;
+        }
+
+        .subscribe {
+            padding:3rem;
+            flex-direction:column;
+            align-items: center;
+            justify-content: space-between;
+            text-align:center;
+            background:white;
+            opacity: 0.7;
+        }
+
+        .subscribe >p:nth-child(1) {
+            text-decoration: underline;
+            font-size:3rem;
+        }
+
+        .subscribe >p:nth-child(2) {
+            text-transform:uppercase;
+        }
+
+        .subscribe >p:nth-child(2)::before {
+            content: open-quote;
+        }
+
+        .subscribe >p:nth-child(2)::after {
+            content: close-quote;
+        }
+
+        .subscribe >p:nth-child(3) {
+            font-size:6rem;
+        }
+
+        button {
+            width:100%;
+            height:10rem;
+            font-size:4rem;
+            color:white;
+            background: #a07442;
+        }
+
+        button:hover {
+            color:#a07442;;
+        }
+  }
+
+  @media only screen and (min-width: 769px) {
+
+    .musicshop_threepics > a > img {
+        padding:1rem;
+    
+    }
+    body {
+        font-size:2rem;
+    }
+
+    .nav-logo {
+        display:block;
+        
+    }
+
+    .home-nav {
+        display:none;
+    }
+
+    .mobile-nav {
+        display:none;
+    }
+
+    #myLinks {
+        background: none;
+        display:block;
+    }
+
+    .fa {
+        display:none;
+    }
+
+    nav ul {
+        display:flex;
+        justify-content: space-around;
+        align-content: flex-start;
+    }
+
+    
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+    h3 {
+        margin-left:-5rem;
+    }
+
+    .musicshop_threepics {
+        justify-content: space-between;
+    }
+}
