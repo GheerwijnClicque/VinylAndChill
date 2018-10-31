@@ -37,5 +37,5 @@ Route::group(['middleware' => ['web', 'auth']], function() {
     });
 
     Route::get('/logout', 'Auth\LoginController@logout');
-    
+
 });
